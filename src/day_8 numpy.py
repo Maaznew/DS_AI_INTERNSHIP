@@ -1,5 +1,4 @@
-# task 
-
+# task 1
 import numpy as np
 scores=np.random.randint(50,101, size=(5,3))
 subject_means = scores.mean(axis=0)
@@ -19,3 +18,5 @@ final_data=reshape_data.transpose(0, 2, 1)
 print("final shape:",final_data.shape)
 print("final array:")
 print(final_data)
+
+
